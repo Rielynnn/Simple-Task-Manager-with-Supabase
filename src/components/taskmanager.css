@@ -1,0 +1,121 @@
+/* Container */
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Title */
+h2 {
+  text-align: center;
+}
+
+/* Form */
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.input,
+.textarea,
+.file-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+/* Buttons */
+.btn {
+  padding: 6px 12px;
+  font-size: 13px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn.primary {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn.update {
+  background-color: #2196f3;
+  color: white;
+}
+
+.btn.delete {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Task list */
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Task Card */
+.task-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.task-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+/* Title */
+.task-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Description */
+.task-desc {
+  margin: 6px 0 10px;
+  color: #555;
+  font-size: 14px;
+}
+
+/* Image (FIXED) */
+.task-image {
+  width: 100%;
+  height: auto;          /* ← key fix */
+  margin: 10px 0;
+  border-radius: 8px;
+  display: block;
+}
+
+/* Edit textarea */
+.task-edit {
+  width: 97%;
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  font-size: 14px;
+}
+
+/* Actions */
+.task-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+}

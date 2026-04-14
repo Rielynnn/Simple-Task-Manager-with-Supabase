@@ -1,0 +1,62 @@
+/* Full screen center */
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  font-family: Arial, sans-serif;
+}
+
+/* Card */
+.auth-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.auth-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+/* Form layout */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Inputs */
+.auth-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Buttons */
+.auth-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Primary (login/signup) */
+.auth-btn.primary {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* Secondary (switch mode) */
+.auth-btn.secondary {
+  background-color: transparent;
+  color: blue;
+  text-decoration: underline;
+}
